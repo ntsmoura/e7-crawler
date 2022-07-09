@@ -52,10 +52,10 @@ Install all the technologies, then follow the instructions:
   
 ```sh
 # Clone the repository
-$ git clone https://github.com/ntsmoura/e7-events-crawler
+$ git clone https://github.com/ntsmoura/e7-crawler
   
 # Change to the directory
-$ cd e7-events-crawler
+$ cd e7-crawler
   
 # Copy the .env.example to a .env
 $ cp .env.example .env
