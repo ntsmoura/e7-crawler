@@ -13,10 +13,8 @@ The main purpose of this crawler is to retrieve data from https://page.onstove.c
 <h2>Guia</h2>
 
 - [:book: Introduction](#book-introduction)
-- [:rocket: Tecnologias](#rocket-tecnologias)
-- [:boom: Como rodar](#boom-como-rodar)
-    - [Prerequisitos](#prerequisitos)
-    - [Rodando com xampp](#rodando-com-xampp)
+- [:rocket: Technologies](#rocket-technologies)
+- [:boom: How to run](#how-to-run)
 
 <a id="doc"></a>
 
@@ -30,28 +28,25 @@ This application runs a predefined schedule periodically, each job in that sched
   
 The events job can identify active check-in and buff events and automatically post its schedule table on discord, using a webhook.
   
-![events_webhook](https://i.imgur.com/kRiAZJe.png)
+<p align="center">
+<img src="https://i.imgur.com/kRiAZJe.png"/>
+</p>
+
+<a id="technologies"></a>
+
+## :rocket: Technologies
+
+This application needs the following thecnologies:
+
+- [Python3](https://www.python.org/downloads/)
+- [Selenium](https://pypi.org/project/selenium/)
+- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [Requests](https://pypi.org/project/requests/)
+- [Python-dotenv](https://pypi.org/project/python-dotenv/)
+- [Web-driver-manager](https://pypi.org/project/webdriver-manager/)
 
 
-<a id="tecnologias"></a>
-
-## :rocket: Tecnologias
-
-Essa aplicação utiliza as seguintes tecnologias:
-
-- [ThreeJs](https://threejs.org/)
-
-<a id="como-executar"></a>
-
-## :boom: Como rodar
-
-#### Prerequisitos
-
-Para rodar essa aplicação é necessário somente um servidor HTTP, como Apache, VS Code Live Server, Nginx, entre outros. Mostrarei um exemplo utilizando o apache através do [Xampp](https://www.apachefriends.org/pt_br/index.html)
-
-#### Rodando com xampp
-
-Após instalar o xampp e configurar o terminal para o diretório principal de onde instalei-o, executo a seguinte sequência de comandos:
+<a id="how-to-run"></a>
 
 ```sh
 # Muda para o diretório htdocs e clona o repositório
