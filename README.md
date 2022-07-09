@@ -46,9 +46,9 @@ This application needs the following thecnologies:
 - [Web-driver-manager](https://pypi.org/project/webdriver-manager/)
 
 
-<a id="how-to-run"></a>
+## :boom: How to run
   
-Install all the needed technologies first, then follow the instructions:
+Install all the technologies, then follow the instructions:
   
 ```sh
 # Clone the repository
@@ -63,10 +63,7 @@ $ cp .env.example .env
 # Run
 $ python3 main.py
 ```
-Ao clonar o repositório estou fazendo download de todas as dependências da aplicação, já que estas estão incluídas na pasta [Assets](https://github.com/MATA65-2022-1/atividade-01---visita-guiada-virtual-ntsmoura/tree/main/Assets). No caso do Xampp, eu inicio o servidor Apache e em qualquer browser acesso o link http://localhost/atividade-01---visita-guiada-virtual-ntsmoura/Passeio.html. Algo similar a isto deve aparecer:
-
-![tela_inicial](https://i.imgur.com/bEbBqpR.jpeg)
-
+Remember to fill the .env with correct data, to do that you need to create an [HTCI](https://hcti.io/) account and a Discord Webhook.
 </div>
 
 
