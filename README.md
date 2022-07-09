@@ -26,7 +26,7 @@ The main purpose of this crawler is to retrieve data from https://page.onstove.c
 
 This application runs a predefined schedule periodically, each job in that schedule is responsible for retrieve some type of specific data from https://page.onstove.com/epicseven/pt, including check-in and buff events, news (in progress), patchs (in progress). 
   
-The events job can identify active check-in and buff events and automatically post its schedule table on discord, using a webhook.
+The events job can identify new active check-in and buff events and automatically post its schedule table on discord, using a webhook.
   
 <p align="center">
 <img src="https://i.imgur.com/kRiAZJe.png"/>
@@ -47,14 +47,22 @@ This application needs the following thecnologies:
 
 
 <a id="how-to-run"></a>
-
+  
+Install all the needed technologies first, then follow the instructions:
+  
 ```sh
-# Muda para o diretório htdocs e clona o repositório
-$ cd htdocs
-$ git clone https://github.com/MATA65-2022-1/atividade-01---visita-guiada-virtual-ntsmoura/
-
+# Clone the repository
+$ git clone https://github.com/ntsmoura/e7-events-crawler
+  
+# Change to the directory
+$ cd e7-events-crawler
+  
+# Copy the .env.example to a .env
+$ cp .env.example .env
+  
+# Run
+$ python3 main.py
 ```
-
 Ao clonar o repositório estou fazendo download de todas as dependências da aplicação, já que estas estão incluídas na pasta [Assets](https://github.com/MATA65-2022-1/atividade-01---visita-guiada-virtual-ntsmoura/tree/main/Assets). No caso do Xampp, eu inicio o servidor Apache e em qualquer browser acesso o link http://localhost/atividade-01---visita-guiada-virtual-ntsmoura/Passeio.html. Algo similar a isto deve aparecer:
 
 ![tela_inicial](https://i.imgur.com/bEbBqpR.jpeg)
