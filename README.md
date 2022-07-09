@@ -24,7 +24,7 @@ The main purpose of this crawler is to retrieve data from https://page.onstove.c
 
 ## :book: Introduction
 
-This application runs a predefined schedule periodically, each job in that schedule is responsible for retrieve some type of specific data from https://page.onstove.com/epicseven/pt, including check-in and buff events, news (in progress), patchs (in progress). 
+This application runs a predefined schedule periodically, each job in that schedule is responsible for retrieve some type of specific data from https://page.onstove.com/epicseven/pt, including check-in and buff events, news (in progress), patches (in progress). 
   
 The events job can identify new active check-in and buff events and automatically post its schedule table on discord, using a webhook.
   
