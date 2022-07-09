@@ -10,7 +10,7 @@ The main purpose of this crawler is to retrieve data from https://page.onstove.c
 
 <!-- Summary -->
 
-<h2>Guia</h2>
+<h2>Summary</h2>
 
 - [:book: Introduction](#book-introduction)
 - [:rocket: Technologies](#rocket-technologies)
